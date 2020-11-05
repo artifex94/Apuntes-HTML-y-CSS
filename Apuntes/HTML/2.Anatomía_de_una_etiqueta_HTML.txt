@@ -1,0 +1,15 @@
+-- Anatomía de una etiqueta HTML --
+
+- Conceptos y sintaxis -
+	
+	Un documento HTML es un documento de texto plano extructurado con elements (elementos en español). Los elementos están encerrados con parejas de tags (etiquetas) que realizan la apertura y el cierre. Cada etiqueta comienza y termina con paréntesis angulados (símbolos de menor que y mayor que (<>)). Existen unas pocas etiquetas vacías o nulas que no puede encerrar ningún texto, como por ejemplo <img>.
+	Se pueden extender las etiquetas (tags) de HTML con attributes (atributos), los cuales proporcionan información adicional que afecta el modo como el navegador interpreta los elementos:
+
+	<p class="saludo'>Hola mundo!</p>
+
+	<p ...>		: Etiqueta de apertura
+	class="saludo"	: Un atributo y su valor
+	Hola mundo!	: Contenido de texto encerrado
+	</p>		: Etiqueta de cierre
+
+	Un archivo HTML es normalmente guardado con una extensión .htm o .html, es entregado por un web server (servidor de internet), y puede ser interpretado por cualquier web browser (navegador) de internet.
