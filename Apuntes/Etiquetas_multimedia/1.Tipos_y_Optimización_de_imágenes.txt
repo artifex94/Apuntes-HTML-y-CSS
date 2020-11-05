@@ -1,0 +1,34 @@
+-- Tipos de imágenes --
+
+Lossy vs Lossless (Con pérdida / Sin pérdida)
+
+	Existen dos tipos de imágenes, sin pérdida o con pérdida, y esto depende de cómo el formato maneja las imágenes.
+
+Lossless - Sin pérdida
+	Los formatos de imagen sin pérdida capturan todos los datos de su archivo original. No se pierde nada del archivo original, foto o obra de arte, de ahí el termino "sin perdida". El archivo aún puede estar comprimido, pero todos los formatos sin pérdida podrán reconstruir su imagen a su estado original. Suelen ser imágenes pesadas.
+
+Lossy - Con pérdida
+	Los formatos de imagen con pérdida se aproximan a su imagen original. Por ejemplo, una imagen con pérdida podría reducir la cantidad de colores en su imagen o analizar la imagen en busca de datos innecesarios. Esto reducirá el tamaño del archivo, aunque puede reducir la calidad de la imagen.
+
+	Por lo general, los archivos con pérdida son mucho más pequeños que los archivos sin pérdida, lo que los hace ideales para usar en línea donde el tamaño del archivo y la velocidad de descarga son vitales.
+
+Formatos Lossless:
+	> GIF 	(Graphics Interchange Format)
+	> PNG 8 (Portable Network Graphics)
+	> PNG 24
+	> SVG	(Scalable Vector Graphics)
+
+Formatos Lossy:
+	> JPG / JPEG	(Photographic Experts Group)
+
+-- Optimización de imágenes --
+
+	En promedio para que una imagen cargue de manera eficiente en una página web y no de la sensación de lentitud ésta debe pesar en promedio entre 70 y 100KB.
+
+- Opciones para trabajar las imágenes -
+
+	> Mejora el tamaño de las imágenes:
+		- Tiny PNG
+
+	> Retira metadatos de las imágenes:
+		- Verexif	
