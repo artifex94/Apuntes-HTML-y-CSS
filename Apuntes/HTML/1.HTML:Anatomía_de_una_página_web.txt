@@ -1,0 +1,7 @@
+-- HTML: Anatomía de una página web --
+
+	HTML signifíca "Hypertext Markup Language" y esto simplemente quiere decir que es un lenguaje de marcado de texto. La primer pagina web era simplemente una página blanca con algunos hipervinculos para conectarte a otras páginas.
+	Por lo que HTML es la opción de poder "saltar" a otras páginas o contenido gracias a ciertos hipervinculos que tenemos en HTML, conocidos como Etiquetas..
+
+- Anatomía de una Página Web -
+	

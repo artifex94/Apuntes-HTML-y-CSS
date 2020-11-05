@@ -1,0 +1,38 @@
+<!--
+HTML está compuesto principalmente por etiquetas, de las cuales pueden diferenciarse 2 clases:
+    Las que deben abrirse y cerrarse como por ejemplo:
+        <head>...</head> y <body>...</body>
+    Las etiquetas que se auto-cierran como por ejemplo:
+        <!DOCTYPE ...> y <meta ...> 
+-->
+<!DOCTYPE html>
+<!--Le decimos al navegador que este archivo es del tipo html:5-->
+<html lang="es">
+<!--Es el contenedor principal o contenedor "padre" el cual contendrá todo el contenido :v es decir todas las etiquetas de nuestro proyecto. El atributo lang estableece el idioma del sitio web. Debemos usarlo para que el navegador pueda traducir nuestra página de ser necesario.-->
+    <head>
+    <!--En el contenedor head se almacenan los metadatos del documento, es decir, informacion necesaria para el navegador y que este pueda cargar correctamente el proyecto, pero que no se encuentra a la vista del usuario. (ej: dependencias, librerias externas, fuentes o el CSS)-->
+
+        <!--Las etiquetas meta le dan información al navegador para que sepa como tratar nuestro proyecto-->
+        <meta charset="UTF-8" />
+        <!--charset determina los tipos de caracteres que van a ser utilizados en la página, y UTF-8 nos habilita a utilizar los caracteres del español como la 'ñ', las tildes y emojis.-->
+        
+        <meta name="description" content="Esta página te mostrará fotos de gatitos"/>
+        <!--Muestra una descripción de nuestro sitio en los buscadores-->
+        
+        <meta name="robots" content="index,follow">
+        <!--Le dice a los robots de los buscadores que los estamos autorizando a posicionar nuestra página en la búsqueda con respecto a nuestro contenido. En caso de que se le quiera denegar este permiso se utiliza el atibuto unfollow-->
+        
+        <title>Es mi página</title>
+        <!--Es el título que se ve en la pestaña del navegador-->
+        
+        <meta name="viewport" content="width=device-width, inictial-scale=1.0">
+        <!--viewport es el tamaño de la pantalla de izquierda a derecha. Este meta ayuda a escalar mejor la página si es que se visualiza desde un dispositivo movil-->
+        
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Con esta etiqueta link se va a conectar el html con el recurso CSS. rel="stylesheet" indica que el documento que va a cargar es una hoja de estilos y href="./css/style.css" es la ubicación del archivo CSS.-->
+    </head>
+    <body>
+    <!--En el contenedor body se va a encontrar toda la información que va a encontrarse a la vista del usuario (ej: Texto, imagenes, videos)-->
+    </body>
+
+</html>
