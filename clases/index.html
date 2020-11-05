@@ -1,10 +1,9 @@
 <!--
 HTML está compuesto principalmente por etiquetas, de las cuales pueden diferenciarse 2 clases:
     Las que deben abrirse y cerrarse como por ejemplo:
-        <head>...</head> y <body>...</body>
+        <head></head> y <body></body>
     Las etiquetas que se auto-cierran como por ejemplo:
-        <!DOCTYPE ...> y <meta ...> 
--->
+        <!DOCTYPE> y <meta> -->
 <!DOCTYPE html>
 <!--Le decimos al navegador que este archivo es del tipo html:5-->
 <html lang="es">
@@ -32,7 +31,49 @@ HTML está compuesto principalmente por etiquetas, de las cuales pueden diferenc
         <!-- Con esta etiqueta link se va a conectar el html con el recurso CSS. rel="stylesheet" indica que el documento que va a cargar es una hoja de estilos y href="./css/style.css" es la ubicación del archivo CSS.-->
     </head>
     <body>
-    <!--En el contenedor body se va a encontrar toda la información que va a encontrarse a la vista del usuario (ej: Texto, imagenes, videos)-->
+    <!--En el contenedor body se va a encontrar toda la información que va a encontrarse a la vista del usuario (ej: Texto, imagenes, videos). Hay 2 tipos de etiquetas, etiquetas de contenido y etiquetas contenedoras-->
+        <!--Semantica de HTML-->
+        <header> 
+        <!--Sección superior de nuestro sitio web-->
+            <nav></nav><!--Barra de navegación-->
+        </header>
+        <main> 
+        <!--Main es el contenido principal del website-->
+            <section>
+            <!--Nuestro website puede estar dividido por secciones-->
+                <article>
+                <!--Contenido independiente de la página-->
+                </article>
+            </section>
+            <ul>
+            <!--Lista desordenada-->
+                <li>
+                <!--Elementos de la lista-->
+                Soy una manzana.
+                </li>
+            </ul>
+            <ol>
+            <!--Lista ordenada y enumerada-->
+
+            </ol>
+        </main>
+        <footer>
+        <!--Pie de página del website-->
+
+        </footer>
+
+        <h1>Soy un título</h1>
+        <!--Títulos, muestran el texto más grande y en negrita. Existen desde el h1 al h6-->
+        
+        <p>Soy un texto</p>
+        <!--Párrafo, texto-->
+
+        <a href="#">Soy un link</a>
+        <!--Enlaces/links que nos permiten movernos entre páginas. El # hace que no se refresque la página cuando se le hace click-->
+        <div>
+        <!--Div es una etiqueta contenedora como las anteriores pero es utilizada como un comodín-->
+        
+        </div>
     </body>
 
 </html>
