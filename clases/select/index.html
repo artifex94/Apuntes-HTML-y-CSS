@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <!-- De esta forma se genera una casilla para seleccionar distintas opciones, pero no es la ideal para un usuario que se encuentre en un teléfono movil. -->
+        <!-- <select name="cursos" id="">
+            <option value="javascript">JavaScript</option>
+            <option value="html5">HTML5</option>
+            <option value="css3">CSS3</option>
+            <option value="web_standards">Web Standards</option>
+        </select> -->
+
+        <input list="cursos" placeholder="Curso">
+        <datalist id="cursos">
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Web Standards"></option>
+        </datalist>
+
+    </main>
+</body>
+</html>
