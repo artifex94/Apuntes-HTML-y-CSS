@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- La forma correcta de hacer un formulario es con <form>, los devs suelen utilizar <div> pero es una mala práctica. -->
+    <form action=""></form>
+        <label for="nombre">
+            <span>¿Cuál es tu nombre?</span>
+            <input type="text" id="nombre" placeholder="Mi nombre es">
+            <!-- El atributo id="" de input debe ser igual al atributo for="" de label. type="" determina el tipo de input. -->
+        </label>
+        <label for="nacimiento">
+            <span>¿Cuándo naciste?</span>
+            <input type="date" id="nacimiento">
+        </label>
+        <label for="horario">
+            <span>¿Qué hora te gusta?</span>
+            <input type="time" id="horario">
+        </label>
+</body>
+</html>
